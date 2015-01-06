@@ -1,0 +1,84 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #12b0c5;
+$status-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$service-color:       rgba(255, 255, 255, 0.7);
+$uptime-color:       rgba(255, 255, 255, 1);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-list styles
+// ----------------------------------------------------------------------------
+.widget-services {
+
+
+  background-color: rgba(0, 0, 0, 0.6);
+  vertical-align: top;
+
+  .title {
+    color: $title-color;
+  }
+
+  .down, .up {
+    font-size: 18px;
+    vertical-align: middle;
+  }
+
+  .up {
+    color: #ffffff;
+  }
+
+  .down {
+    color: #ff4444;
+  }
+
+
+  ol, ul {
+    margin: 0 5px;
+    text-align: left;
+    color: $service-color;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .list-nostyle {
+    list-style: none;
+  }
+
+  .service {
+    color: $service-color;
+  }
+
+  .status {
+    margin-left: -12px;
+    color: $status-color;
+    height: 30px;
+    width: 20px;
+    margin: 1px;
+    padding-bottom: 1px;
+    display: inline-block;
+  }
+  
+  .uptime {
+    float: right;
+    color: $uptime-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+}

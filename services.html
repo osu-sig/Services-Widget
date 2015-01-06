@@ -1,0 +1,15 @@
+<h1 class="title" data-bind="title"></h1>
+
+<ul class="list-nostyle">
+  <li data-foreach-item="items">
+    <span class="status">
+      <i class="fa fa-circle fa-fw up" style="" data-hideif="item.status | equals 'down'"></i>
+      <i class="fa fa-circle fa-fw down" style="color:#31857f;" data-showif="item.status | equals 'down'"></i>
+    </span>
+    <span class="service" data-bind="item.name"></span>
+    <span class="uptime" data-bind="item.uptime"></span>
+  </li>
+</ul>
+
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind-error="error" data-bind="updatedAtMessage"></p>
