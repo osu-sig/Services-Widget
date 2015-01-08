@@ -11,10 +11,22 @@ send_event("services_demo_1", items: services)
 
 
 services = [
-  { name: 'Sector Alpha', status: 'down' },
-  { name: 'Sector Beta', status: 'up' },
-  { name: 'Sector Delta', status: 'up' },
-  { name: 'Sector Epsilon', status: 'down' }
+  { name: 'Service A', status: 'up'},
+  { name: 'Service B', status: 'up'},
+  { name: 'Failing Service', status: 'down' },
+  { name: 'Service D', status: 'up' }
 ]
 
 send_event("services_demo_2", items: services)
+
+
+
+
+services = [
+  { name: 'Service A', status: 'up'},
+  { name: 'Service B', status: 'up'},
+  { name: 'Failing Service', status: 'down' },
+  { name: 'Service D', status: 'up' }
+]
+
+send_event("services_demo_3", items: services)

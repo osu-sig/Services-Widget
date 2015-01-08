@@ -3,11 +3,12 @@
 // ----------------------------------------------------------------------------
 $background-color:  #12b0c5;
 $status-color:       #fff;
-
 $title-color:       rgba(255, 255, 255, 0.7);
-$service-color:       rgba(255, 255, 255, 0.7);
-$uptime-color:       rgba(255, 255, 255, 1);
+$service-color:     rgba(255, 255, 255, 0.7);
+$uptime-color:      rgba(255, 255, 255, 1);
 $moreinfo-color:    rgba(255, 255, 255, 0.7);
+$up-color:          #ffffff;
+$down-color:        #ff4444;
 
 // ----------------------------------------------------------------------------
 // Widget-list styles
@@ -27,15 +28,16 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     vertical-align: middle;
   }
 
+  // Change the color of your up icon here
   .up {
-    color: #ffffff;
+    color: $up-color;
   }
 
+  // Change the color of your down color here
   .down {
-    color: #ff4444;
+    color: $down-color;
   }
-
-
+  
   ol, ul {
     margin: 0 5px;
     text-align: left;

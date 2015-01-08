@@ -3,8 +3,12 @@
 <ul class="list-nostyle">
   <li data-foreach-item="items">
     <span class="status">
-      <i class="fa fa-circle fa-fw up" style="" data-hideif="item.status | equals 'down'"></i>
-      <i class="fa fa-circle fa-fw down" style="color:#31857f;" data-showif="item.status | equals 'down'"></i>
+      <div class="up" data-hideif="item.status | equals 'down'">
+        <i data-bind-class="upicon | default 'fa fa-circle fa-fw'"></i>
+      </div>
+      <div class="down" data-hideif="item.status | equals 'up'">
+        <i data-bind-class="downicon | default 'fa fa-circle fa-fw'"></i>
+      </div>
     </span>
     <span class="service" data-bind="item.name"></span>
     <span class="uptime" data-bind="item.uptime"></span>
