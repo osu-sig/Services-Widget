@@ -11,7 +11,7 @@ modified: 2015 Jan 7
 Services
 =========
 
-![alt tag](https://raw.github.com/osu-sig/Services-Widget/master/services_widget_screenshot.png)
+![alt tag](https://raw.github.com/osu-sig/Services-Widget/master/screenshot.png)
 
 ## What is it?
 
@@ -21,7 +21,7 @@ A Services tile can display the up/down status of up to 5 independent services. 
 
 ## How do I use it?
 
-See the demo Files for examples. If you don't want percentages on your widget, simply leave them out of the data. To change the status icon shapes from the default circle, you can set the data-upicon and data-downicon html attributes on your dashboard. For example, to change the up icon to be a heart you could use data-upicon="fa-heart fa-fw fa". Each tile can have its own icons for up and down, as shown in the screenshot :)
+See the demo files for examples. If you don't want percentages on your widget, simply leave them out of the data. To change the status icon shapes from the default circle, you can set the data-upicon and data-downicon html attributes on your dashboard. For example, to change the up icon to be a heart you could use data-upicon="fa-heart fa-fw fa". Each tile can have its own icons for up and down, as shown in the screenshot :)
 
 ## Are there any dependencies?
 
